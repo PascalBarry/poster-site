@@ -12,7 +12,9 @@
 //===============================================================================
 $paper:  white;
 $ink:    #282828;
-$sans-serif: 'Univers', Helvetica Neue', Helvetica, Arial, sans-serif; 
+$sans-serif: 'Univers', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+$primary-color: 0;
+$secondary-color: #b1f2eb;
 
 //===============================================================================
 // BASCIS
@@ -30,10 +32,14 @@ ul {
 
 html,
 body {
-  background-color: #fff;
+  background-color: $secondary-color;
   color: $ink;
-  font-family: sans-serif;
+  font-family: $sans-serif;
   line-height: 1.4;
+}
+
+header {
+	background-color: $secondary-color;
 }
 
 //===============================================================================
