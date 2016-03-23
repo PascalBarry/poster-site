@@ -11,7 +11,8 @@
 // VARIABLES
 //===============================================================================
 $paper:  white;
-$ink:    black;
+$ink:    #282828;
+$sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 
 //===============================================================================
 // BASCIS
@@ -29,7 +30,7 @@ ul {
 
 html,
 body {
-  background-color: pink;
+  background-color: #fff;
   color: $ink;
   font-family: sans-serif;
   line-height: 1.4;
